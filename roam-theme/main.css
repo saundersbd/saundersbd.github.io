@@ -91,6 +91,10 @@ div {
   font-weight: 600 !important;
 }
 
+.roam-body .roam-app h1 {
+  color: var(--color-gray-800) !important;
+}
+
 .rm-heading-level-1 > .rm-block-main span {
   margin-top: -4px !important;
 }
@@ -232,6 +236,17 @@ span[data-tag] {
 
 .roam-body .roam-app .roam-sidebar-container {
   background: var(--color-gray-700) !important;
+  top: 52px;
+  bottom: 52px;
+}
+
+.roam-sidebar-container[style*="top: 45px"] {
+  top: 52px !important;
+  bottom: 52px !important;
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
 }
 
 .roam-body
@@ -384,7 +399,9 @@ span[data-tag] {
   font-size: 14px;
   font-weight: 600 !important;
   line-height: 14px !important;
-  padding: 0px 12px !important;
+  margin: -3px 0 0 2px !important;
+  min-height: auto;
+  padding: 6px 10px !important;
 }
 
 #buffer {
