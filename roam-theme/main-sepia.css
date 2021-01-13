@@ -430,6 +430,6 @@ span[data-tag] {
   background-color: var(--color-text-light);
 }
 
-.rm-bullet.rm-bullet--closed .rm-bullet__inner {
+.rm-bullet.rm-bullet--closed .rm-bullet__inner, .sidebar-content .rm-bullet.rm-bullet--closed .rm-bullet__inner {
   border-color: #dedbd9;
 }
